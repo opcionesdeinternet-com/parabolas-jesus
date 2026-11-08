@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Las Parábolas de Jesús - 24 Historias Explicadas con Reflexión y Oración</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        chocolate: '#D2691E',
+                        chocolateDark: '#B85512',
+                        chocolateLight: '#F5DEB3',
+                        warmSand: '#FDFBF7',
+                        earthBrown: '#3E2723',
+                        goldAccent: '#D4AF37'
+                    },
+                    fontFamily: {
+                        serif: ['Merriweather', 'Georgia', 'serif'],
+                        sans: ['Inter', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Merriweather:ital,wght@0,300;0,400;0,700;1,300&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #FDFBF7; color: #2C221E; }
+        h1, h2, h3, .font-serif { font-family: 'Merriweather', Georgia, serif; }
+        .bg-chocolate-custom { background-color: #D2691E; }
+        .text-chocolate-custom { color: #D2691E; }
+        .border-chocolate-custom { border-color: #D2691E; }
+    </style>
+</head>
+<body class="antialiased selection:bg-amber-200 selection:text-amber-900">
+
+    <!-- TOP ANNOUNCEMENT BAR -->
+    <div class="bg-earthBrown text-white text-xs sm:text-sm py-2 px-4 text-center font-medium tracking-wide">
+        <span class="bg-goldAccent text-earthBrown px-2 py-0.5 rounded-full text-xs font-bold mr-2 uppercase">¡Oferta Especial!</span> 
+        Obtén hoy el Ebook + 2 Bonos de Regalo exclusivos por tiempo limitado.
+    </div>
+
+    <!-- HEADER / HERO SECTION -->
+    <header class="relative bg-gradient-to-b from-[#F5DEB3]/30 via-white to-warmSand py-12 lg:py-20 overflow-hidden border-b border-amber-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                
+                <!-- Hero Text Column -->
+                <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+                    <div class="inline-flex items-center gap-2 bg-amber-100/80 border border-amber-300 px-4 py-1.5 rounded-full text-amber-900 text-xs sm:text-sm font-semibold">
+                        <i class="fa-solid fa-book-open text-chocolate-custom"></i> Edición Digital Definitiva • Formato PDF Leíble
+                    </div>
+                    
+                    <h1 class="text-3xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-earthBrown leading-tight">
+                        Las Parábolas <br class="hidden sm:inline">de <span class="text-chocolate-custom">Jesús</span>
+                    </h1>
+                    
+                    <p class="text-lg sm:text-xl text-stone-700 font-serif italic max-w-2xl mx-auto lg:mx-0">
+                        "24 historias explicadas en su contexto, con reflexión y oración diaria."
+                    </p>
+                    
+                    <p class="text-stone-600 text-base sm:text-lg leading-relaxed max-w-2xl mx-auto lg:mx-0">
+                        Sumérgete en las enseñanzas más profundas del Maestro. Un recorrido claro, conmovedor y práctico diseñado para enriquecer tu vida espiritual, descifrar costumbres del siglo I y transformar tu cotidiano.
+                    </p>
+
+                    <!-- Features bullets -->
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2 text-stone-700 text-sm font-medium text-left max-w-lg mx-auto lg:mx-0">
+                        <div class="flex items-center gap-2">
+                            <i class="fa-solid fa-circle-check text-chocolate-custom"></i> Explicadas en su contexto histórico
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <i class="fa-solid fa-circle-check text-chocolate-custom"></i> Reflexiones prácticas diarias
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <i class="fa-solid fa-circle-check text-chocolate-custom"></i> Oraciones breves al final
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <i class="fa-solid fa-circle-check text-chocolate-custom"></i> Ideal lectura individual o en grupo
+                        </div>
+                    </div>
+
+                    <!-- CTA Button -->
+                    <div class="pt-4 flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
+                        <a href="https://pay.hotmart.com/H108387672M?checkoutMode=10" 
+                           class="w-full sm:w-auto inline-flex items-center justify-center gap-3 bg-chocolate-custom hover:bg-chocolateDark text-white text-lg font-bold px-8 py-4 rounded-xl shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-0.5">
+                            <i class="fa-solid fa-lock text-sm text-amber-200"></i>
+                            <span>QUIERO MI EBOOK AHORA</span>
+                            <i class="fa-solid fa-arrow-right text-sm"></i>
+                        </a>
+                    </div>
+                    <p class="text-xs text-stone-500 flex items-center justify-center lg:justify-start gap-2">
+                        <i class="fa-solid fa-shield-halved text-green-600">></i> Compra 100% Segura vía Hotmart • Descarga Inmediata a tu dispositivo
+                    </p>
+                </div>
+
+                <!-- Hero Image Column (Mockup) -->
+                <div class="lg:col-span-5 flex justify-center relative">
+                    <div class="absolute -top-6 -left-6 w-72 h-72 bg-amber-200/40 rounded-full blur-3xl pointer-events-none"></div>
+                    <div class="relative bg-white p-3 rounded-2xl shadow-2xl border border-amber-200/60 transform rotate-1 hover:rotate-0 transition-transform duration-500 max-w-sm w-full">
+                        <img src="mockup-ebook-3.webp" alt="Las Parábolas de Jesús Ebook Mockup" class="rounded-xl w-full h-auto object-cover shadow-inner" onerror="this.src='https://placehold.co/400x500/D2691E/ffffff?text=Las+Parabolas+de+Jesus'">
+                        <div class="absolute -bottom-4 -right-4 bg-earthBrown text-white px-4 py-2 rounded-xl shadow-lg text-xs font-bold tracking-wide border border-goldAccent flex items-center gap-2">
+                            <i class="fa-solid fa-star text-goldAccent"></i> Incluye 2 Ebooks de Regalo
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <!-- BENEFICIOS / QUE ENCONTRARAS -->
+    <section class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto space-y-4 mb-16">
+                <span class="text-chocolate-custom font-semibold tracking-wider uppercase text-sm">Un viaje transformador</span>
+                <h2 class="text-3xl sm:text-4xl font-bold text-earthBrown">¿Qué descubrirás en este libro?</h2>
+                <p class="text-stone-600 text-base sm:text-lg">
+                    Diseñado para conectar el pasado con tu vida diaria de forma sencilla y profunda, sin enredos teológicos complejos.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Card 1 -->
+                <div class="bg-warmSand p-8 rounded-2xl border border-amber-100 shadow-sm hover:shadow-md transition-shadow">
+                    <div class="w-14 h-14 bg-amber-100 text-chocolate-custom rounded-xl flex items-center justify-center text-2xl font-bold mb-6">
+                        <i class="fa-solid fa-seedling"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-earthBrown mb-3">El Reino de Dios</h3>
+                    <p class="text-stone-600 text-sm leading-relaxed">
+                        Comprende parábolas clave como El Sembrador, El Trigo y la Cizaña o el Tesoro Escondido. Historias que muestran cómo el Reino crece en silencio y vale más que todo.
+                    </p>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="bg-warmSand p-8 rounded-2xl border border-amber-100 shadow-sm hover:shadow-md transition-shadow">
+                    <div class="w-14 h-14 bg-amber-100 text-chocolate-custom rounded-xl flex items-center justify-center text-2xl font-bold mb-6">
+                        <i class="fa-solid fa-heart-pulse"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-earthBrown mb-3">Misericordia y Perdón</h3>
+                    <p class="text-stone-600 text-sm leading-relaxed">
+                        Revive relatos incomparables como El Hijo Pródigo, La Oveja Perdida y El Buen Samaritano. Una mirada tierna y desafiante sobre el amor incondicional del Padre.
+                    </p>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="bg-warmSand p-8 rounded-2xl border border-amber-100 shadow-sm hover:shadow-md transition-shadow">
+                    <div class="w-14 h-14 bg-amber-100 text-chocolate-custom rounded-xl flex items-center justify-center text-2xl font-bold mb-6">
+                        <i class="fa-solid fa-house-chimney-window"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-earthBrown mb-3">Estar Preparados</h3>
+                    <p class="text-stone-600 text-sm leading-relaxed">
+                        Estudia pasajes prácticos como La Casa sobre la Roca y Las Diez Jóvenes. Construye bases sólidas y vive con atención y esperanza cada día de tu vida.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Estructura del capítulo box -->
+            <div class="mt-12 bg-gradient-to-r from-amber-50 to-orange-50 rounded-2xl p-8 border border-amber-200/80 max-w-4xl mx-auto flex flex-col md:flex-row items-center gap-6">
+                <div class="flex-shrink-0 text-chocolate-custom text-4xl">
+                    <i class="fa-solid fa-circle-info"></i>
+                </div>
+                <div class="space-y-2 text-center md:text-left">
+                    <h4 class="text-lg font-bold text-earthBrown">Estructura amigable en cada capítulo</h4>
+                    <p class="text-stone-600 text-sm">
+                        Cada lectura de 10-15 minutos incluye: <strong>La Parábola</strong> resumida, <strong>El Contexto</strong> histórico, <strong>Costumbres de aquellos tiempos</strong>, <strong>Qué quiso enseñar Jesús</strong>, <strong>Preguntas para reflexionar</strong> y una <strong>Oración</strong> breve.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION DE BONOS DE REGALO -->
+    <section class="py-16 bg-warmSand border-y border-amber-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto space-y-4 mb-16">
+                <span class="bg-goldAccent/20 text-amber-900 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-widest border border-goldAccent/40">🎁 ¡Regalos Especiales Incluidos Hoy!</span>
+                <h2 class="text-3xl sm:text-4xl font-bold text-earthBrown">Llévate 2 Ebooks de Regalo Sin Costo Adicional</h2>
+                <p class="text-stone-600 text-base sm:text-lg">
+                    Complementa tu crecimiento espiritual con estas dos guías exclusivas diseñadas con la misma calidad y profundidad.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
+                
+                <!-- Bono 1: El Padrenuestro -->
+                <div class="bg-white rounded-2xl p-6 sm:p-8 shadow-md border border-amber-200 flex flex-col sm:flex-row gap-6 items-center">
+                    <div class="w-full sm:w-48 flex-shrink-0 flex justify-center">
+                        <img src="mockup-el-padrenuestro-2.webp" alt="Bono El Padrenuestro" class="rounded-xl shadow-md w-40 sm:w-full object-cover border border-amber-100">
+                    </div>
+                    <div class="space-y-3 text-center sm:text-left">
+                        <span class="text-xs font-bold bg-amber-100 text-amber-900 px-2.5 py-1 rounded-md uppercase">Bono 1 • Valorado en $19 USD</span>
+                        <h3 class="text-xl font-bold text-earthBrown">El Padrenuestro</h3>
+                        <p class="text-stone-600 text-sm leading-relaxed">
+                            <strong>Frase por frase: qué significa, qué nos enseña y cómo orarlo.</strong> Un recorrido profundo para transformar una oración repetida de memoria en un encuentro vivo y consciente con Dios.
+                        </p>
+                        <ul class="text-xs text-stone-500 space-y-1 text-left inline-block">
+                            <li><i class="fa-solid fa-check text-green-600 mr-1.5"></i> Desglose detallado de cada línea</li>
+                            <li><i class="fa-solid fa-check text-green-600 mr-1.5"></i> Guía para orar despacio (10-15 min)</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Bono 2: El Ayuno -->
+                <div class="bg-white rounded-2xl p-6 sm:p-8 shadow-md border border-amber-200 flex flex-col sm:flex-row gap-6 items-center">
+                    <div class="w-full sm:w-48 flex-shrink-0 flex justify-center">
+                        <img src="mockup-el-ayuno-4.webp" alt="Bono El Ayuno" class="rounded-xl shadow-md w-40 sm:w-full object-cover border border-amber-100">
+                    </div>
+                    <div class="space-y-3 text-center sm:text-left">
+                        <span class="text-xs font-bold bg-amber-100 text-amber-900 px-2.5 py-1 rounded-md uppercase">Bono 2 • Valorado en $19 USD</span>
+                        <h3 class="text-xl font-bold text-earthBrown">El Ayuno</h3>
+                        <p class="text-stone-600 text-sm leading-relaxed">
+                            <strong>Qué significa, qué dice la Biblia y cómo practicarlo hoy.</strong> Una guía equilibrada y cuidadosa para hacer espacio para Dios en tu vida, con precauciones de salud y planes prácticos.
+                        </p>
+                        <ul class="text-xs text-stone-500 space-y-1 text-left inline-block">
+                            <li><i class="fa-solid fa-check text-green-600 mr-1.5"></i> Fundamentos bíblicos claros</li>
+                            <li><i class="fa-solid fa-check text-green-600 mr-1.5"></i> Plan seguro para tu primer día</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION RESUMEN / PAQUETE COMPLETO -->
+    <section class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-earthBrown text-white rounded-3xl p-8 sm:p-12 shadow-2xl relative overflow-hidden">
+                <!-- Background ambient glow -->
+                <div class="absolute -right-20 -bottom-20 w-96 h-96 bg-chocolate-custom/30 rounded-full blur-3xl pointer-events-none"></div>
+                
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center relative z-10">
+                    <div class="lg:col-span-6 space-y-6">
+                        <span class="bg-goldAccent text-earthBrown text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">Paquete Completo</span>
+                        <h2 class="text-3xl sm:text-4xl font-bold leading-tight">Todo lo que recibes hoy en tu paquete digital</h2>
+                        <ul class="space-y-4 text-amber-100 text-sm sm:text-base">
+                            <li class="flex items-start gap-3">
+                                <i class="fa-solid fa-circle-check text-goldAccent mt-1 text-lg"></i>
+                                <div><strong>Ebook Principal:</strong> Las Parábolas de Jesús (24 historias explicadas, formato PDF).</div>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <i class="fa-solid fa-circle-check text-goldAccent mt-1 text-lg"></i>
+                                <div><strong>Bono Exclusivo 1:</strong> Ebook "El Padrenuestro" (valorado en $19 USD).</div>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <i class="fa-solid fa-circle-check text-goldAccent mt-1 text-lg"></i>
+                                <div><strong>Bono Exclusivo 2:</strong> Ebook "El Ayuno" (valorado en $19 USD).</div>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <i class="fa-solid fa-circle-check text-goldAccent mt-1 text-lg"></i>
+                                <div><strong>Acceso Inmediato y Permanente:</strong> Lee desde tu celular, tablet o computadora e imprímelos si lo deseas.</div>
+                            </li>
+                        </ul>
+
+                        <div class="pt-4 flex flex-col sm:flex-row items-center gap-4">
+                            <a href="https://pay.hotmart.com/H108387672M?checkoutMode=10" 
+                               class="w-full sm:w-auto text-center bg-goldAccent hover:bg-yellow-500 text-earthBrown text-base font-bold px-8 py-4 rounded-xl shadow-lg transition-all transform hover:scale-105">
+                                <i class="fa-solid fa-cart-shopping mr-2"></i> OBTENER TODO EL PAQUETE
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="lg:col-span-6 flex justify-center">
+                        <img src="mockup-full-1.webp" alt="Mockup Completo Pack Ebooks" class="rounded-2xl shadow-2xl border-2 border-goldAccent/40 max-w-md w-full object-cover">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIOS Y GARANTIA -->
+    <section class="py-16 bg-warmSand border-t border-amber-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto space-y-4 mb-14">
+                <h2 class="text-3xl font-bold text-earthBrown">Lo que dicen nuestros lectores</h2>
+                <p class="text-stone-600">Personas de distintas comunidades cristianas que ya han transformado sus momentos de lectura y oración.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
+                <!-- Testimonio 1 -->
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-amber-200/60 space-y-4">
+                    <div class="text-goldAccent flex gap-1 text-sm">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="text-stone-700 text-sm italic font-serif">
+                        "Leer las parábolas con el contexto histórico hizo que cada historia de Jesús cobrara vida de una manera que nunca antes había entendido. Los bonos son extraordinarios."
+                    </p>
+                    <div class="text-xs font-bold text-earthBrown">— Carmen R., España</div>
+                </div>
+
+                <!-- Testimonio 2 -->
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-amber-200/60 space-y-4">
+                    <div class="text-goldAccent flex gap-1 text-sm">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="text-stone-700 text-sm italic font-serif">
+                        "El libro de 'El Padrenuestro' me ayudó a detener la marcha y orar con calma cada frase. Es un material muy bien cuidado, sencillo y profundo."
+                    </p>
+                    <div class="text-xs font-bold text-earthBrown">— Esteban M., Argentina</div>
+                </div>
+
+                <!-- Testimonio 3 -->
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-amber-200/60 space-y-4">
+                    <div class="text-goldAccent flex gap-1 text-sm">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="text-stone-700 text-sm italic font-serif">
+                        "Excelente relación calidad-precio. Las preguntas al final de cada capítulo son perfectas para reflexionar en grupo o a solas cada mañana."
+                    </p>
+                    <div class="text-xs font-bold text-earthBrown">— Lucía P., México</div>
+                </div>
+            </div>
+
+            <!-- Garantía Box -->
+            <div class="bg-white rounded-2xl p-8 border-2 border-amber-200 max-w-3xl mx-auto text-center space-y-4 shadow-sm">
+                <div class="w-16 h-16 bg-amber-100 text-chocolate-custom rounded-full flex items-center justify-center text-2xl mx-auto">
+                    <i class="fa-solid fa-shield-check"></i>
+                </div>
+                <h3 class="text-2xl font-bold text-earthBrown">Garantía de Satisfacción de 7 Días</h3>
+                <p class="text-stone-600 text-sm leading-relaxed max-w-xl mx-auto">
+                    Estamos seguros de que este material bendecirá tu vida espiritual. Si por alguna razón no cumple tus expectativas, cuentas con la garantía oficial de Hotmart para solicitar el reembolso del 100% de tu dinero sin complicaciones.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER / LLAMADO FINAL -->
+    <footer class="bg-earthBrown text-stone-300 py-16 border-t border-amber-900">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-8">
+            <h2 class="text-2xl sm:text-3xl font-bold text-white">Comienza tu viaje espiritual hoy</h2>
+            <p class="text-stone-400 max-w-xl mx-auto text-sm">
+                Obtén acceso inmediato al ebook "Las Parábolas de Jesús" y los 2 bonos de regalo exclusivos.
+            </p>
+            
+            <div>
+                <a href="https://pay.hotmart.com/H108387672M?checkoutMode=10" 
+                   class="inline-flex items-center justify-center gap-3 bg-chocolate-custom hover:bg-chocolateDark text-white text-lg font-bold px-10 py-4 rounded-xl shadow-xl transition-all transform hover:scale-105">
+                    <i class="fa-solid fa-lock text-sm text-amber-200"></i>
+                    <span>ACCEDER AL CHECKOUT SEGURO</span>
+                </a>
+            </div>
+
+            <div class="pt-8 border-t border-stone-800 text-xs text-stone-500 space-y-2">
+                <p>© 2026 Las Parábolas de Jesús. Todos los derechos reservados.</p>
+                <p>Este sitio no está afiliado a Facebook ni a ninguna entidad de Meta. Hotmart procesa los pagos de forma segura.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
